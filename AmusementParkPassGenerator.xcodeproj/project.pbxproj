@@ -14,6 +14,16 @@
 		842C71C71DD8F6C800A9A9C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842C71C51DD8F6C800A9A9C4 /* LaunchScreen.storyboard */; };
 		842C71D21DD8F6C800A9A9C4 /* AmusementParkPassGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C71D11DD8F6C800A9A9C4 /* AmusementParkPassGeneratorTests.swift */; };
 		842C71DD1DD8F6C800A9A9C4 /* AmusementParkPassGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C71DC1DD8F6C800A9A9C4 /* AmusementParkPassGeneratorUITests.swift */; };
+		842C71EB1DD8FA0100A9A9C4 /* PassType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C71EA1DD8FA0100A9A9C4 /* PassType.swift */; };
+		84B7EEB41DE0F74000986E65 /* PermissionsAndDiscounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7EEB31DE0F74000986E65 /* PermissionsAndDiscounts.swift */; };
+		84B7EEB61DE0F96300986E65 /* SwipeMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7EEB51DE0F96300986E65 /* SwipeMethods.swift */; };
+		84B7EEB81DE0F98700986E65 /* ErrorTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7EEB71DE0F98700986E65 /* ErrorTypes.swift */; };
+		84B7EEBA1DE2431600986E65 /* CreatePass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7EEB91DE2431600986E65 /* CreatePass.swift */; };
+		84B7EEBE1DE7439200986E65 /* AccessAreas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7EEBD1DE7439200986E65 /* AccessAreas.swift */; };
+		84B7EEC11DE7544D00986E65 /* AccessDenied.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84B7EEBF1DE7544D00986E65 /* AccessDenied.wav */; };
+		84B7EEC21DE7544D00986E65 /* AccessGranted.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84B7EEC01DE7544D00986E65 /* AccessGranted.wav */; };
+		84B7EEC41DE78C7500986E65 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7EEC31DE78C7500986E65 /* Timer.swift */; };
+		84B7EEC61DE7BF8700986E65 /* CheckBirthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7EEC51DE7BF8700986E65 /* CheckBirthday.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		842C71D81DD8F6C800A9A9C4 /* AmusementParkPassGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmusementParkPassGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		842C71DC1DD8F6C800A9A9C4 /* AmusementParkPassGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmusementParkPassGeneratorUITests.swift; sourceTree = "<group>"; };
 		842C71DE1DD8F6C800A9A9C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842C71EA1DD8FA0100A9A9C4 /* PassType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PassType.swift; path = ../PassType.swift; sourceTree = "<group>"; };
+		84B7EEB31DE0F74000986E65 /* PermissionsAndDiscounts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermissionsAndDiscounts.swift; sourceTree = "<group>"; };
+		84B7EEB51DE0F96300986E65 /* SwipeMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeMethods.swift; sourceTree = "<group>"; };
+		84B7EEB71DE0F98700986E65 /* ErrorTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorTypes.swift; sourceTree = "<group>"; };
+		84B7EEB91DE2431600986E65 /* CreatePass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePass.swift; sourceTree = "<group>"; };
+		84B7EEBD1DE7439200986E65 /* AccessAreas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessAreas.swift; sourceTree = "<group>"; };
+		84B7EEBF1DE7544D00986E65 /* AccessDenied.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AccessDenied.wav; sourceTree = "<group>"; };
+		84B7EEC01DE7544D00986E65 /* AccessGranted.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AccessGranted.wav; sourceTree = "<group>"; };
+		84B7EEC31DE78C7500986E65 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		84B7EEC51DE7BF8700986E65 /* CheckBirthday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBirthday.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +119,19 @@
 			children = (
 				842C71BC1DD8F6C800A9A9C4 /* AppDelegate.swift */,
 				842C71BE1DD8F6C800A9A9C4 /* ViewController.swift */,
+				842C71EA1DD8FA0100A9A9C4 /* PassType.swift */,
+				84B7EEB91DE2431600986E65 /* CreatePass.swift */,
+				84B7EEB31DE0F74000986E65 /* PermissionsAndDiscounts.swift */,
+				84B7EEBD1DE7439200986E65 /* AccessAreas.swift */,
+				84B7EEB51DE0F96300986E65 /* SwipeMethods.swift */,
+				84B7EEB71DE0F98700986E65 /* ErrorTypes.swift */,
+				84B7EEC31DE78C7500986E65 /* Timer.swift */,
+				84B7EEC51DE7BF8700986E65 /* CheckBirthday.swift */,
 				842C71C01DD8F6C800A9A9C4 /* Main.storyboard */,
 				842C71C31DD8F6C800A9A9C4 /* Assets.xcassets */,
 				842C71C51DD8F6C800A9A9C4 /* LaunchScreen.storyboard */,
+				84B7EEBF1DE7544D00986E65 /* AccessDenied.wav */,
+				84B7EEC01DE7544D00986E65 /* AccessGranted.wav */,
 				842C71C81DD8F6C800A9A9C4 /* Info.plist */,
 			);
 			path = AmusementParkPassGenerator;
@@ -236,8 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				842C71C71DD8F6C800A9A9C4 /* LaunchScreen.storyboard in Resources */,
+				84B7EEC21DE7544D00986E65 /* AccessGranted.wav in Resources */,
 				842C71C41DD8F6C800A9A9C4 /* Assets.xcassets in Resources */,
 				842C71C21DD8F6C800A9A9C4 /* Main.storyboard in Resources */,
+				84B7EEC11DE7544D00986E65 /* AccessDenied.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +296,14 @@
 			files = (
 				842C71BF1DD8F6C800A9A9C4 /* ViewController.swift in Sources */,
 				842C71BD1DD8F6C800A9A9C4 /* AppDelegate.swift in Sources */,
+				84B7EEBE1DE7439200986E65 /* AccessAreas.swift in Sources */,
+				84B7EEBA1DE2431600986E65 /* CreatePass.swift in Sources */,
+				842C71EB1DD8FA0100A9A9C4 /* PassType.swift in Sources */,
+				84B7EEC61DE7BF8700986E65 /* CheckBirthday.swift in Sources */,
+				84B7EEB61DE0F96300986E65 /* SwipeMethods.swift in Sources */,
+				84B7EEC41DE78C7500986E65 /* Timer.swift in Sources */,
+				84B7EEB81DE0F98700986E65 /* ErrorTypes.swift in Sources */,
+				84B7EEB41DE0F74000986E65 /* PermissionsAndDiscounts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +554,7 @@
 				842C71E31DD8F6C900A9A9C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		842C71E41DD8F6C900A9A9C4 /* Build configuration list for PBXNativeTarget "AmusementParkPassGeneratorTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +563,7 @@
 				842C71E61DD8F6C900A9A9C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		842C71E71DD8F6C900A9A9C4 /* Build configuration list for PBXNativeTarget "AmusementParkPassGeneratorUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +572,7 @@
 				842C71E91DD8F6C900A9A9C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
